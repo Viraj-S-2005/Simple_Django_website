@@ -1,0 +1,64 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8ff68;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #190246;
+    color: #ff8e0c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ffd20c;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #15ff00;
+}
+
+/* Container Box */
+.container {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(143, 0, 79);
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 217, 0);
+}
+
+/* Footer */
+footer {
+    background-color: #200341;
+    color: rgb(255, 251, 0);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* 🔵 LinkedIn Link Styling */
+a[href*="linkedin.com"] {
+    color: #dafc1a; /* LinkedIn blue */
+    font-weight: bold;
+}
+
+a[href*="linkedin.com"]:hover {
+    color: #ffffff; /* On hover */
+    text-decoration: underline;
+}
