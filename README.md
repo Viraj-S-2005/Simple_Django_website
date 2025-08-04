@@ -1,5 +1,5 @@
-# Simple_Django_website
-Django Internship Website 🌐
+# Simple_Django_website<br>
+<h1>Django Internship Website 🌐<h1></h1><br>
 This is a simple Django-based website developed as part of my internship task. The project includes:
 <br><br>
 
